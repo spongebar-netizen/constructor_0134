@@ -5,7 +5,7 @@ using namespace std;
 class Mahasiswa
 {
 public:
-	int nim;
+	long int nim;
 	string nama;
 
 public:
@@ -34,10 +34,10 @@ public:
 };
 
 int main() {
-	Mahasiswa mhs1("Lalu Idrak Yadafi Fatan Nuraga");
-	Mahasiswa mhs2("mikael");
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(20);
 	Mahasiswa mhs3("bayam");
-	Mahasiswa mhs4("fikar");
+	Mahasiswa mhs4(30,"fikar");
 
 	mhs1.cetak();
 	mhs2.cetak();
