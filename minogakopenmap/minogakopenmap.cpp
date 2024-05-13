@@ -44,5 +44,5 @@ int main()
 	mhs2.printALL();
 	mhs3.printALL();
 	mhs4.printALL();
-	return; 0;
+	return 0;
 }
