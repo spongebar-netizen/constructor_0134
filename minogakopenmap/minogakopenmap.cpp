@@ -9,5 +9,6 @@ public:
 	int id;
 	string nama;
 
-	void 
+	void setID();
+
 };
